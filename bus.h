@@ -5,7 +5,7 @@
 class Bus {
 private:
 	string placa;
-	Chofer* choferBus;
+	Chofer* choferBus;    //Hola git
 	Ruta* rutaBus;
 public:
 	Bus(string plac = "", Chofer* driver = NULL, Ruta* rute = NULL);
